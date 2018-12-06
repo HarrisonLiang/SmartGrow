@@ -1,0 +1,8 @@
+@mixin rounded-corners($radius) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin fontSize($size) {
+    font-size:calculateRem($size);
+}
