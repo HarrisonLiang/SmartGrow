@@ -24,7 +24,7 @@ gulp.task('styles', function(){
 gulp.task('sass', function(){
     return gulp.src([
         'node_modules/bootstrap/scss/bootstrap.scss',
-        'Source/scss/main.scss'])
+        'source/scss/main.scss'])
     //.pipe(sass().on('error', sass.logError))
     .pipe(sass({
         outputStyle: 'compressed'
