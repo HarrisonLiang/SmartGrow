@@ -1,5 +1,99 @@
+/*base.scss*/
+
+@font-face {
+    font-family: SFDisplay;
+    src: url(../fonts/SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+    font-family: SFDisplayBold;
+    src: url(../fonts/SF-Pro-Display-Bold.otf);    
+}
+
+@font-face {
+    font-family: SFText;
+    src: url(../fonts/SFProText-Regular.ttf); 
+}
+
+@font-face {
+    font-family: SFTextBold;
+    src: url(../fonts/SFProText-Bold.ttf);
+}
+
+
+/*start of search box css*/
+/*input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../images/searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+
+
+
+/*body css*/
+
 body {
-    font-family:$primary-font;
+    font-family: SFText;
     /*max-width:900px;*/
 }
 
@@ -12,10 +106,40 @@ body {
     }
 }
 
+.col-7{
+    padding-left:0;
+    padding-right:0;
+}
+/*
 .row {
     margin-right: 0px;
     margin-left: 0px;
+}*/
+
+p{
+    margin-bottom:0rem;
 }
+
+.add-icon{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+.sort-icon{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+.arrow-right{
+        align-content:flex-end;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /*%secondary-header {
     font-size:20px;
 }

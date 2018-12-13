@@ -1,0 +1,45 @@
+.page-header{
+        margin-left:5%;
+        margin-bottom:20px;
+    &__title{
+        font-family:SFDisplayBold;        
+        font-weight:700;
+    }
+    &__subtext{
+        color:#B7B7B7;
+    }
+}
+
+.plant-listing{
+    &__title{
+        font-family:SFDisplayBold;
+        font-weight:700;
+    }
+}
+
+.plant-box{
+    margin-bottom:20px;
+}
+
+.article{
+    padding-left:5%;
+    padding-right:5%;
+    &__header{
+        font-weight:700;
+
+    }
+    &__text{
+        margin-bottom:20px;
+
+    }
+    &__stats{
+        margin-bottom:20px;
+    }
+}
+
+.text{
+
+    &--bold{
+        font-weight:700;
+    }
+}
