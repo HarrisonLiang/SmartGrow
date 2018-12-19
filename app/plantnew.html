@@ -39,16 +39,19 @@
       <span class="page-header__subtext"></span>
   </div>
   
-  <p>Identify your plant</p>
-  <p>Take a picture of your plant or the barcode</p>
+  <div class="plant-search-container">
+  <p class="identify-text">Identify your plant</p>
+  <p class="identify-text">Take a picture of your plant or the barcode</p>
   
   <!--<input type="text" name="search" placeholder="Enter a plant name and search">-->
   <form autocomplete="off" action="index.html">
-  <div class="autocomplete" style="width:300px;">
-    <input id="myInput" type="text" name="search" placeholder="Enter a plant name and search">
-  </div>
-  <input type="submit">
-</form>
+    <div class="autocomplete" style="width:300px;">
+      <input id="myInput" type="text" name="search" placeholder="Enter a plant name and search">
+    </div>
+    <!--<input type="submit" href="planthome2.html">-->
+    <input type="button" class="fake-submit-button" onclick="location.href='planthome2.html';" value="Submit" />
+  </form>
+</div>
 </div>
 
   <script src="scripts/main.js"></script>

@@ -1,6 +1,5 @@
 <!doctype html>
 <html class="no-js" lang="">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -12,6 +11,7 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="styles/main.css">
+
 </head>
 
 <body>
@@ -30,7 +30,9 @@
   
       </div>
     </div>
-
+    
+    
+<!-- Header -->
     <div class="page-header">
         <h1 class="page-header__title">
             Plant Details
@@ -38,31 +40,33 @@
         <span  class="page-header__subtext">Your Majesty Palm is Healthy</span>
     </div>
 
+<!-- Plant name -->
     <div class="row">
         <div class="col-12">
           <img src="images/majestypalm.jpg" class="img-fluid">
         </div>
     </div>
+    <br/>
     <div class="row">
-        <div class="col-6">
+        <div class="col-5 detail-header__reading">
           Majesty Palm
         </div>
-        <div class="col-6">
+        <div class="col-7">
           <a href="plantguide.html"><img src="images/arrow.png" class="img-fluid"></a>
         </div>
     </div>
     
     <!--Start of One Detail-->
-    <div class="row">
-        <div class="col-9">
-          Sunlight
+    <div class="row detail-header__title">
+        <div class="col-9 detail-header__reading">
+          <img class="img-fluid status-dot" src="images/dot-green.png"> Sunlight
         </div>
         <div class="col-3">
           <img>
         </div>
     </div>
-    <div class="row">
-        <div class="col-3">
+    <div class="row detail-header__description">
+        <div class="col-3 detail-header__image">
           <img src="images/sun.png" class="img-fluid">
         </div>
         <div class="col-3">
@@ -74,16 +78,16 @@
     </div>
     
     <!--Start of Detail Two-->
-        <div class="row">
-        <div class="col-9">
-          Water Content
+    <div class="row detail-header__title">
+        <div class="col-9 detail-header__reading">
+          <img class="img-fluid status-dot" src="images/dot-green.png"> Water Content
         </div>
         <div class="col-3">
           <img>
         </div>
     </div>
-    <div class="row">
-        <div class="col-3">
+    <div class="row detail-header__description">
+        <div class="col-3 detail-header__image">
           <img src="images/waterdrop.png" class="img-fluid">
         </div>
         <div class="col-3">
@@ -95,16 +99,16 @@
     </div>
     
     <!--Start of Detail Three-->
-    <div class="row">
-        <div class="col-9">
-          Air Temperature
+    <div class="row detail-header__title">
+        <div class="col-9 detail-header__reading">
+          <img class="img-fluid status-dot" src="images/dot-green.png"> Air Temperature
         </div>
         <div class="col-3">
           <img>
         </div>
     </div>
-    <div class="row">
-        <div class="col-3">
+    <div class="row detail-header__description">
+        <div class="col-3 detail-header__image">
           <img src="images/thermo.png" class="img-fluid">
         </div>
         <div class="col-3">
@@ -116,30 +120,32 @@
     </div>
 
     <!--Start of Detail Four-->
-    <div class="row">
-        <div class="col-9">
-          Soil Fertility
+    <div class="row detail-header__title">
+        <div class="col-9 detail-header__reading">
+          <img class="img-fluid status-dot" src="images/dot-green.png"> Soil Fertility
         </div>
         <div class="col-3">
           <img>
         </div>
     </div>
-    <div class="row">
-        <div class="col-3">
+    <div class="row detail-header__description">
+        <div class="col-3 detail-header__image">
           <img src="images/flowersoil.png" class="img-fluid">
         </div>
         <div class="col-3">
-          pH 6
+          <p>pH 6</p>
+          <p>Moist 6</p>
+          <p>Fertilizer Level EC 0.5mS/cm</p>
         </div>
         <div class="col-6">
-          <img class="img-fluid" src="images/greenbar1.png">
-          <img class="img-fluid" src="images/greenbar2.png">
-          <img class="img-fluid" src="images/greenbar3.png">
+          <img class="img-fluid" src="images/greenbar1.png"> <br/>
+          <img class="img-fluid" src="images/greenbar2.png"> <br/>
+          <img class="img-fluid" src="images/greenbar3.png"> <br/>
         </div>
     </div>    
     
-    <!--Start of Detail Others-->
-    <div class="row">
+    <!--Start of Detail Others
+    <div class="row detail-header__title">
         <div class="col-9">
           Other Details
         </div>
@@ -162,7 +168,7 @@
         <div class="col-6">
           Nitrogen
         </div>
-    </div>  
+    </div>  -->
 </div>
 
   <script src="scripts/main.js"></script>
@@ -173,7 +179,8 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-
+  
+  
 </body>
 
 </html>

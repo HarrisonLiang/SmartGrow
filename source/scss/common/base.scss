@@ -20,6 +20,10 @@
     src: url(../fonts/SFProText-Bold.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+
 
 /*start of search box css*/
 /*input[type=text] {
@@ -93,7 +97,7 @@ input[type=submit] {
 /*body css*/
 
 body {
-    font-family: SFText;
+    font-family: 'Oxygen', sans-serif;
     /*max-width:900px;*/
 }
 
@@ -123,20 +127,65 @@ p{
 .add-icon{
     margin-top:20px;
     margin-bottom:20px;
+    margin-left:20px;
 }
 
 
 .sort-icon{
     margin-top:20px;
     margin-bottom:20px;
+    margin-right:20px;
 }
 
 
 .arrow-right{
-        align-content:flex-end;
-      display: block;
-  margin-left: auto;
-  margin-right: auto;
+    align-content:flex-end;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main-plant-arrow{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.sort-icon-box{
+    display: flex;
+    justify-content:flex-end; /* align horizontal */
+    align-items: right; /* align vertical */
+}
+
+
+.splash-div{
+    height: 100vh;
+    display: flex;
+    justify-content:center; /* align horizontal */
+    align-items: center; /* align vertical */   
+}
+
+.fake-submit-button{
+    background-color: DodgerBlue;
+    color:white;
+    cursor: pointer;
+}
+
+.plant-search-container{
+    margin-left:5%;
+    align-content:space-between;
+    height: 50vh;
+}
+
+.status-box{
+    display: flex;
+    justify-content:flex-start; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.status-dot{
+    margin-right: 5px;
 }
 
 

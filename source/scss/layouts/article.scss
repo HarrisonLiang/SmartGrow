@@ -2,7 +2,7 @@
         margin-left:5%;
         margin-bottom:20px;
     &__title{
-        font-family:SFDisplayBold;        
+        font-family: 'Oxygen', sans-serif;
         font-weight:700;
     }
     &__subtext{
@@ -12,7 +12,7 @@
 
 .plant-listing{
     &__title{
-        font-family:SFDisplayBold;
+        font-family: 'Oxygen', sans-serif;
         font-weight:700;
     }
 }
@@ -41,5 +41,26 @@
 
     &--bold{
         font-weight:700;
+    }
+}
+
+.detail-header{
+    &__title{
+        padding-top:20px;
+        padding-bottom:10px;
+    }
+    &__image{
+        display: flex;
+        justify-content: center; /* align horizontal */
+        align-items: center; /* align vertical */
+    }
+    &__description{
+        padding-bottom:20px;        
+    }
+    &__reading{
+        font-weight:700;
+            display: flex;
+    justify-content:flex-start; /* align horizontal */
+    align-items: center; /* align vertical */
     }
 }
