@@ -64,3 +64,12 @@
     align-items: center; /* align vertical */
     }
 }
+
+.identify-text{
+    &__title{
+    font-weight:700;
+    }
+    &__text{
+        margin-bottom:20px;
+    }
+}
